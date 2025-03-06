@@ -1,12 +1,10 @@
 import React, { useRef } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Footer from "./Components/Footer.jsx";
 import HostelHeader from "./Components/HeadHeader.jsx";
 import "bootstrap/dist/css/bootstrap.min.css";
 // import LandingPage from "./Landing";
 import styled from "styled-components";
 import { createGlobalStyle } from "styled-components";
-// import Hostel from "./Components/Nav_Bar_Comp/Hostel.jsx";
 import StudentLayout from "./Layouts/StudentDashboard.jsx";
 import WardenLayout from "./Layouts/WardenDashboard.jsx";
 import SuperiorLayout from "./Layouts/SuperiorDashboard.jsx";
